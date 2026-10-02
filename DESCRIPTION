@@ -1,0 +1,15 @@
+Package: kavel
+Type: Package
+Title: Generate AI Images with No API Key
+Version: 0.1.0
+Authors@R: person("Kavel", role = c("aut", "cre"), email = "support@kavel.ai")
+Description: A small client for the Kavel AI image service <https://www.kavel.ai>.
+    Without a key it uses the anonymous free tier, so the first call works on a
+    machine with nothing configured. With an API key every call runs on your
+    kavel.ai account.
+License: MIT + file LICENSE
+URL: https://www.kavel.ai, https://github.com/hanshs474/kavel-r
+BugReports: https://github.com/hanshs474/kavel-r/issues
+Imports: curl, jsonlite
+Encoding: UTF-8
+RoxygenNote: 7.3.2

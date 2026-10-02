@@ -1,0 +1,5 @@
+export(kavel_generate)
+export(kavel_edit)
+export(kavel_credits)
+importFrom(curl, new_handle, handle_setheaders, handle_setopt, curl_fetch_memory, curl_escape)
+importFrom(jsonlite, toJSON, fromJSON)
